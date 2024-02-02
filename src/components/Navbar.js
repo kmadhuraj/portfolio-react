@@ -35,7 +35,7 @@ export default function Navbar() {
     {/* sidebar */}
     <div className={`offcanvas collapse ${navType}`} tabIndex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
       <div className="offcanvas-header">
-        <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        <button type="button" className="btn-close" data-bs-dismiss="collapse" aria-label="Close"></button>
       </div>
 
       <div className="offcanvas-body">

@@ -12,8 +12,9 @@ body{
   background-image: url("./assets/images/myimg2.jpg");
   background: contain no-repeat;
   background-color: #d9e0f1;
-  /* background-color: #b2b2b2; */
+  
   height: 100vh;
+  
   
 }
 
@@ -234,6 +235,11 @@ body{
     
   }
 
+  body{
+    /* background: none; */
+    overflow: hidden;
+  }
+
 }
  
 
@@ -413,4 +419,4 @@ body{
 
 
 
-
+ 
